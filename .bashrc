@@ -12,4 +12,4 @@ export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWSTASHSTATE=true
 #export GIT_PS1_SHOWUPSTREAM="verbose"
-export PS1="$RED\$(date +%H:%M)$GREEN \u@\h$BLUE \w$YELLOW\$(__git_ps1 ' %s')\n$BLUE\$$GRAY "
+export PS1="$RED\$(date +%H:%M:%S)$GREEN \u@\h$BLUE \w$YELLOW\$(__git_ps1 ' %s')\n$BLUE\$$GRAY "
